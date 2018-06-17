@@ -8,7 +8,7 @@ test:
   runner_options:
   av_runner_options: '--long'
 
-freeze:
-  entry_point: '{{cookiecutter.project_slug}}/__main__.py'
+# freeze:
+  # entry_point: '{{cookiecutter.project_slug}}/__main__.py'
   # data_files:
     # - '{{cookiecutter.project_slug}}/images;/images'
