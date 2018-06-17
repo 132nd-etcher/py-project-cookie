@@ -1,0 +1,10 @@
+{
+  "full_name": "132nd-etcher",
+  "project_name": "Python Boilerplate",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "email": "{{ cookiecutter.project_slug }}@daribouca.net",
+  "github_username": "132nd-etcher",
+  "project_short_description": "Python Boilerplate contains all the boilerplate you need to create a Python package.",
+  "codacy_id": "",
+  "best_practices_id": ""
+}

@@ -1,0 +1,14 @@
+package: '{{cookiecutter.project_slug}}'
+
+doc:
+  repo: 'https://github.com/132nd-etcher/{{cookiecutter.project_slug}}-doc.git'
+  folder: './doc'
+
+test:
+  runner_options:
+  av_runner_options: '--long'
+
+freeze:
+  entry_point: '{{cookiecutter.project_slug}}/__main__.py'
+  # data_files:
+    # - '{{cookiecutter.project_slug}}/images;/images'
